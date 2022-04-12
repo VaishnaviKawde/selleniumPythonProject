@@ -16,6 +16,6 @@ print("After checkbox click, is drop element visible to user: ", dropElement.is_
 if dropElement.is_displayed():       # if(dropElement.is_displayed() == True)
     print("test case passed")
 else:
-    print("test case failed")
+    print("test case is failed")
 
 # driver.close()
