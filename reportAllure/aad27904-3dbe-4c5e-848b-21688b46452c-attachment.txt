@@ -1,0 +1,5 @@
+get driver
+maximize window
+open url of facebook
+print title
+close window

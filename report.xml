@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="0.306" timestamp="2022-03-11T11:11:37.969780" hostname="DESKTOP-MHJ8SOM"><testcase classname="PytestPrograms.test_first" name="test_1" time="0.002"><failure message="assert 10 == 12">def test_1():
+        x = 10
+        y = 12
+&gt;       assert x == y
+E       assert 10 == 12
+
+PytestPrograms\test_first.py:5: AssertionError</failure></testcase><testcase classname="PytestPrograms.test_first" name="test_2" time="0.001" /><testcase classname="PytestPrograms.test_first" name="testing_3" time="0.001"><failure message="assert 20 == 40">def testing_3():
+        x = 10
+        y = 10
+        result = x+y
+&gt;       assert result == 40
+E       assert 20 == 40
+
+PytestPrograms\test_first.py:18: AssertionError</failure></testcase></testsuite></testsuites>

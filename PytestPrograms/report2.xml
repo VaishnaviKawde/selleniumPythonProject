@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="3" tests="8" time="0.177" timestamp="2022-03-12T23:28:14.178793" hostname="DESKTOP-MHJ8SOM"><testcase classname="test_first" name="test_1" time="0.002"><failure message="assert 10 == 12">def test_1():
+        x = 10
+        y = 12
+&gt;       assert x == y
+E       assert 10 == 12
+
+test_first.py:5: AssertionError</failure></testcase><testcase classname="test_first" name="test_2" time="0.001" /><testcase classname="test_first" name="testing_3" time="0.002"><failure message="assert 20 == 40">def testing_3():
+        x = 10
+        y = 10
+        result = x+y
+&gt;       assert result == 40
+E       assert 20 == 40
+
+test_first.py:18: AssertionError</failure></testcase><testcase classname="test_pythonMarkers" name="test_first" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\selfg\PycharmProjects\selleniumPythonProject\PytestPrograms\test_pythonMarkers.py:6: unconditional skip</skipped></testcase><testcase classname="test_pythonMarkers" name="test_second" time="0.002"><failure message="assert 77 == 88">def test_second():
+        a = 33
+        b = 44
+        result = a + b
+&gt;       assert result == 88
+E       assert 77 == 88
+
+test_pythonMarkers.py:18: AssertionError</failure></testcase><testcase classname="test_pythonMarkers" name="test_third" time="0.001"><skipped type="pytest.skip" message="version not supported">C:\Users\selfg\PycharmProjects\selleniumPythonProject\PytestPrograms\test_pythonMarkers.py:20: version not supported</skipped></testcase><testcase classname="test_pythonMarkers" name="test_check_in" time="0.001" /><testcase classname="test_pythonMarkers" name="test_check_is" time="0.001"><skipped type="pytest.xfail" message="" /></testcase></testsuite></testsuites>

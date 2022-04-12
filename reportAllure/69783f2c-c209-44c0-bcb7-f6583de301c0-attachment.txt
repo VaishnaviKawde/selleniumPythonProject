@@ -1,0 +1,5 @@
+get driver
+maximize window
+open url of amazon
+print title
+close window
